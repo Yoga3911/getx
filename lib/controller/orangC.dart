@@ -5,6 +5,8 @@ class GetController extends GetxController {
   var counterObx = 0.obs;
   var counterGetX = 0.obs;
   var isDark = false.obs;
+  var item = 0.obs;
+  var total = 0.obs;
 
   void increamentObx() => counterObx++;
   void decreamentObx() => counterObx--;
